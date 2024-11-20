@@ -38,3 +38,28 @@ This FastAPI-based backend provides an analysis of property prices categorized b
    ```bash
    {"message": "FastAPI server for tree analysis is running!"}
    ```
+
+2. GET `/average_prices`
+   <br/> Fetches the average property prices for streets categorized as short, tall, or unknown.
+   <br/> Response:
+   ```bash
+      {
+       "short": 250000,
+       "tall": 350000,
+       "unknown": 150000
+      }
+   ```
+3. GET `/unknown_properties`
+   <br/> Returns a list of properties categorized as `unknown`.
+   <br/> Response:
+   ```bash
+   [
+    {
+        "Address": "123 Unknown St",
+        "Street Name": "Unknown Street",
+        "Price": 100000
+    }
+   ]
+   ```
+
+### Testing
