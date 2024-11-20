@@ -16,5 +16,5 @@ This FastAPI-based backend provides an analysis of property prices categorized b
 
 ### Setup Instructions
 1. Clone the repository:
-```git clone <repository-url>```
-```cd backend```
+```bash git clone <repository-url>```
+```bash cd backend```
