@@ -43,9 +43,8 @@ This FastAPI-based backend provides an analysis of property prices categorized b
    <br/> Response:
    ```bash
       {
-       "short": 250000,
-       "tall": 350000,
-       "unknown": 150000
+         "short":488981.6592828445,
+         "tall":587800.3856725664
       }
    ```
    
