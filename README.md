@@ -12,4 +12,9 @@ This FastAPI-based backend provides an analysis of property prices categorized b
     * `/unknown_properties`: Fetches properties that cannot be categorized as `short` or `tall`.
 * Data Preprocessing:
     * Cleans property price data by removing currency symbols and converting values to floats.
-    * Flattens nested tree data for easy categorization. 
+    * Flattens nested tree data for easy categorization.
+
+### Setup Instructions
+1. Clone the repository:
+```git clone <repository-url>```
+```cd backend```
