@@ -6,6 +6,8 @@
 This FastAPI-based backend provides an analysis of property prices categorized by the height of trees on their streets. It includes endpoints to fetch average property prices and identify properties on unknown streets.
 
 ### Features
-* CORS Configuration: Enables secure communication with the React frontend.
-* Endpoints:
-    * `/average_prices`: Returns the average property prices for streets categorized as short, `tall`, or `unknown`. 
+* ##### CORS Configuration: Enables secure communication with the React frontend.
+* ##### Endpoints:
+    * `/average_prices`: Returns the average property prices for streets categorized as short, `tall`, or `unknown`.
+    * `/unknown_properties`: Fetches properties that cannot be categorized as `short` or `tall`.
+* ##### Data Preprocessing:
