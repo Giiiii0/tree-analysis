@@ -48,13 +48,6 @@ This FastAPI-based backend provides an analysis of property prices categorized b
       }
    ```
    
-### Testing
-1. Run unit tests:
-   ```bash
-   pytest
-   ```
-2. Ensure all tests pass for endpoints and data processing logic.
-
 # Frontend README
 #### Title: Tree and Property Price Analysis Frontend
 
@@ -93,11 +86,6 @@ A React-based frontend visualizing property price data based on tree heights. It
    * Communicates with the backend API to fetch and display data dynamically.
 3. Error Handling:
    * Logs errors for failed API requests.
-  
-### Testing
-1. Ensure the React app runs without errors.
-2. Verify the pie chart correctly visualizes data fetched from the backend.
-
 
 # GitHub Repository Structure
 ```bash
