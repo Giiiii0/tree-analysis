@@ -49,17 +49,17 @@ This FastAPI-based backend provides an analysis of property prices categorized b
        "unknown": 150000
       }
    ```
-3. GET `/unknown_properties`
-   <br/> Returns a list of properties categorized as `unknown`.
-   <br/> Response:
-   ```bash
-   [
-    {
-        "Address": "123 Unknown St",
-        "Street Name": "Unknown Street",
-        "Price": 100000
-    }
-   ]
-   ```
-
+   
 ### Testing
+1. Run unit tests:
+   ```bash
+   pytest
+   ```
+2. Ensure all tests pass for endpoints and data processing logic.
+
+## Backend README
+#### Title: Tree and Property Price Analysis Backend
+
+### Description
+
+This FastAPI-based backend provides an analysis of property prices categorized by the height of trees on their streets. It includes endpoints to fetch average property prices and identify properties on unknown streets.
