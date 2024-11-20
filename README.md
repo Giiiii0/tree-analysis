@@ -33,8 +33,8 @@ This FastAPI-based backend provides an analysis of property prices categorized b
 
 ### Endpoints
 1. GET `/`
-   * Returns a status message to confirm the server is running.
-   Response:
+   < br/>Returns a status message to confirm the server is running.
+   < br/>Response:
    ```bash
    {"message": "FastAPI server for tree analysis is running!"}
    ```
