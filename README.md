@@ -8,7 +8,7 @@ This FastAPI-based backend provides an analysis of property prices categorized b
 ### Features
 * CORS Configuration: Enables secure communication with the React frontend.
 * Endpoints:
-    * `/average_prices`: Returns the average property prices for streets categorized as short, `tall`, or `unknown`.
+    * `/average_prices`: Returns the average property prices for streets categorized as `short` or `tall`.
 * Data Preprocessing:
     * Cleans property price data by removing currency symbols and converting values to floats.
     * Flattens nested tree data for easy categorization.
@@ -39,7 +39,7 @@ This FastAPI-based backend provides an analysis of property prices categorized b
    ```
 
 2. GET `/average_prices`
-   <br/> Fetches the average property prices for streets categorized as short, tall, or unknown.
+   <br/> Fetches the average property prices for streets categorized as `short` or `tall`.
    <br/> Response:
    ```bash
       {
@@ -64,9 +64,7 @@ A React-based frontend visualizing property price data based on tree heights. It
 
 ### Features
 * Pie Chart Visualization:
-   * Displays average property prices for `short`, `tall`, and `unknown` tree categories.
-* Optional Unknown Properties List:
-   * Scrollable list of properties categorized as `unknown`.
+   * Displays average property prices for `short` and `tall` tree categories.
 * Responsive and Interactive Design:
    * Uses Recharts for dynamic data visualization.
  
