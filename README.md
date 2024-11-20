@@ -25,7 +25,7 @@ This FastAPI-based backend provides an analysis of property prices categorized b
    ```
 3. Run the server:
    ```bash
-   uvicorn main:app --reload
+   uvicorn server:app --reload
    ```
 4. Access the API:
    * Localhost URL: `http://127.0.0.1:8000`
