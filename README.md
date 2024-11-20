@@ -102,7 +102,7 @@ A React-based frontend visualizing property price data based on tree heights. It
 2. Verify the pie chart correctly visualizes data fetched from the backend.
 
 
-### GitHub Repository Structure
+# GitHub Repository Structure
 ```bash
 root/
 ├── backend/
