@@ -28,4 +28,13 @@ This FastAPI-based backend provides an analysis of property prices categorized b
    ```bash
    uvicorn main:app --reload
    ```
+4. Access the API:
+   * Localhost URL: `http://127.0.0.1:8000`
 
+### Endpoints
+1. GET `/`
+   Returns a status message to confirm the server is running.
+   Response:
+   ```bash
+   {"message": "FastAPI server for tree analysis is running!"}
+   ```
