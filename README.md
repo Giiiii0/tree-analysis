@@ -90,27 +90,16 @@ A React-based frontend visualizing property price data based on tree heights. It
 # GitHub Repository Structure
 ```bash
 root/
-├── mongoDB/
-├── client/
-│   ├── public/
+├── backend/
+│   ├── server.py
+│   ├── city-trees.json
+│   ├── property-data.csv
+│   └── requirements.txt
+├── frontend/
 │   ├── src/
-│   ├── .env
-│   ├── Dockerfile
-│   ├── nginx.conf
-│   ├── package.json
-│   └── tailwind.config.js
-├── server/
-│   ├── configs/
-│   ├── controllers/
-│   ├── functions/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   ├── Dockerfile
-│   ├── package.json
-│   └── server.js
-│── .dockerignore
-│── docker-compose.yaml
-└── README.md
-```
+│   │   ├── components/
+│   │   │   └── Chart.tsx
+│   │   └── App.tsx
+│   ├── public/
+│   └── package.json
+└── README.md (Overall project README)
